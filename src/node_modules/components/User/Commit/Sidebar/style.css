@@ -1,0 +1,56 @@
+.userCommits__sidebar {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  margin-top: 3%;
+  position: fixed;
+  overflow: scroll;
+  border-right: 2px solid #ccc;
+}
+
+.userCommits__sidebar > h2 {
+  padding: 3%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #ccc;
+  box-shadow: 5px 5px 8px 5px rgba(200, 200, 200, .5);
+}
+
+.userCommitsSidebarItem__wrapper {
+  padding: 38% 0 30% 0;
+  margin-bottom: 10%;
+}
+
+.userCommitsSidebar__item {
+  padding-left: 5%;
+  cursor: pointer;
+  border-bottom: 2px solid #ccc;
+}
+
+.userCommitsSidebar__item:hover {
+  background-color: #fafafa;
+}
+
+.userCommitsSidebar__item.active {
+  background-color: #eaeaea;
+}
+
+.repo__name {
+  width: 90%;
+  color: #999;
+}
+
+.repo__status {
+  width: 30%;
+  color: rgb(62, 184, 241);
+}
+
+span.public {
+  color: coral;
+}
+
+.repo__url {
+  width: 10%;
+}
+

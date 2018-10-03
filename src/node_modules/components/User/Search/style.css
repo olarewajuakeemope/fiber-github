@@ -1,0 +1,31 @@
+.userSearch__inputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.userSearch__text,
+.userSearch__inputWrapper {
+  width: 100%;
+}
+
+.userSearch__text {
+  text-align: center;
+}
+
+.userSearch__input {
+  display: block;
+  width: 40%;
+  height: 100%;
+  color: #7a8996;
+  background-image: url('../../../images/common/user.svg');
+  background-position: 5px 5px; 
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+}
+
+.userSearch__submit button {
+  height: 100%;
+  margin: 4px 2px;
+}

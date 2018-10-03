@@ -1,0 +1,34 @@
+{
+  "name": "github-project",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Olarewaju Akeem Opeyemi",
+  "devDependencies": {
+    "react-hot-loader": "^4.2.0",
+    "redux-freeze": "^0.1.5",
+    "redux-logger": "^3.0.6"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "react-virtualized": "^9.19.1",
+    "redux": "^3.7.2",
+    "redux-form": "^7.3.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

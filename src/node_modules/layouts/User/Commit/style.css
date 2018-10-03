@@ -1,0 +1,17 @@
+.userCommits__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.userCommits__wrapper .header__wrapper {
+  box-shadow: none;
+}
+
+.userCommits__panelWrapper {
+  position: fixed;
+  top: 15%;
+}

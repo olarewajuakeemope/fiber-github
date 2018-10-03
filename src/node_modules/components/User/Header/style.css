@@ -1,0 +1,14 @@
+.header__wrapper {
+  width: 100%;
+  height: 4em;
+  color: white;
+  position: fixed;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  top: 15%;
+  z-index: 1;
+  padding: 1% 1% 1% 3%;
+  background-color: rgb(62, 184, 241);
+  box-shadow: 0 5px 8px 5px #dddddd;
+}

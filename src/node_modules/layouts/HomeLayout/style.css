@@ -1,0 +1,36 @@
+.homeLayout__container {
+  height: 100%;
+  flex-direction: column;
+}
+
+.homeLayout__container,
+.homeLayout__inputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeLayout__container,
+.homeLayout__text,
+.homeLayout__inputWrapper {
+  width: 100%;
+}
+
+.homeLayout__text {
+  text-align: center;
+}
+
+.homeLayout__inputWrapper {
+  height: 50px;
+}
+
+.homeLayout__input {
+  display: block;
+  width: 40%;
+  height: 100%;
+  color: #7a8996;
+  background-image: url('../../images/common/user.svg');
+  background-position: 5px 5px; 
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+}
