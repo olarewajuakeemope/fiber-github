@@ -1,4 +1,4 @@
-# Github scalable
+# Github fiber
 A simple Github user crawling application
 
 ## Features
