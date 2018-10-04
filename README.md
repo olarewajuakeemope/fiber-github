@@ -4,6 +4,10 @@ A simple Github user crawling application
 ## Features
 1. search github users
 2. view searched users profile details
+3. view searched users following
+4. view searched users followers
+5. view searched users repos
+6. view searched users starred repos
 
 ## ES6 Features used
 1. Arrow functions - Used for simplicity and to avoid binding class methods
